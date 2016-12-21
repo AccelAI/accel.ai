@@ -1,9 +1,10 @@
+from flask import *
 from app import app
 
 @app.route('/')
 @app.route('/index')
 def index():
-    return "Accel.AI"
+    return render_template('index.html', title='Home')
 
 @app.route('/workshops')
 def workshops():
