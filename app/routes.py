@@ -6,6 +6,8 @@ from app import app
 def index():
     return render_template('index.html', title='Home')
 
+
+
 @app.route('/workshops')
 def workshops():
     return "workshops"
