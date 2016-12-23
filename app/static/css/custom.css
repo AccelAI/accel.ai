@@ -1,0 +1,19 @@
+#index-banner {
+    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url(/static/images/nodes3.jpg);
+    background-size: cover;
+}
+
+#culture-banner {
+    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url(/static/images/collab.jpg);
+    background-size: cover;
+
+}
+
+#culture-banner img {
+  max-height: 50%;
+}
+
+.collapsible-body {
+    background-color: #5388bd;
+    color: #fff;
+}
