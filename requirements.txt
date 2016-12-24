@@ -1,10 +1,12 @@
 altgraph==0.10.2
 appnope==0.1.0
 autoenv==1.0.0
+awsebcli==3.9.0
 Babel==2.3.4
 backports-abc==0.4
 backports.shutil-get-terminal-size==1.0.0
 bdist-mpkg==0.5.0
+blessed==1.9.5
 blinker==1.4
 bonjour-py==0.3
 botocore==1.4.91
@@ -20,6 +22,8 @@ configparser==3.5.0
 cryptography==1.5
 decorator==4.0.10
 Django==1.10.2
+docker-py==1.7.2
+dockerpty==0.4.1
 docopt==0.6.2
 docutils==0.13.1
 entrypoints==0.2.2
@@ -118,15 +122,16 @@ pyobjc-framework-SystemConfiguration==2.5.1
 pyobjc-framework-WebKit==2.5.1
 pyOpenSSL==16.1.0
 pyparsing==2.1.4
-python-dateutil==2.5.3
+python-dateutil==2.6.0
 python-firebase==1.2
 pytz==2016.6.1
-PyYAML==3.11
+PyYAML==3.12
 pyzmq==16.0.0
 Quandl==3.0.1
-requests==1.1.0
+requests==2.9.1
 scikit-learn==0.17.1
 scipy==0.18.0
+semantic-version==2.5.0
 simplegeneric==0.8.1
 singledispatch==3.4.0.3
 six==1.10.0
@@ -136,6 +141,7 @@ sqlalchemy-migrate==0.10.0
 sqlparse==0.2.2
 stevedore==1.14.0
 tablib==0.11.2
+tabulate==0.7.5
 Tempita==0.5.2
 tensorflow==0.11.0rc0
 terminado==0.6
@@ -145,6 +151,7 @@ unicodecsv==0.14.1
 vboxapi==1.0
 virtualenv==15.1.0
 wcwidth==0.1.7
+websocket-client==0.40.0
 Werkzeug==0.11.11
 Whoosh==2.7.4
 widgetsnbextension==1.2.6
