@@ -101,7 +101,7 @@ nav ul a {
 .cd-headline.type .cd-words-wrapper.waiting::after {
     -webkit-animation: cd-pulse 1s infinite;
     -moz-animation: cd-pulse 1s infinite;
-    animation: cd-pulse 1s infinite;
+    animation: cd-pulse 0.5s infinite;
 }
 .cd-headline.type .cd-words-wrapper.selected {
     background-color: #FFF;
@@ -206,7 +206,7 @@ nav ul a {
     position:absolute;
     left:50%; /* centers the loading animation horizontally one the screen */
     top:50%; /* centers the loading animation vertically one the screen */
-    background-image:url(../img/status.gif); /* path to your loading animation */
+    background-image:url(/static/img/status.gif); /* path to your loading animation */
     background-repeat:no-repeat;
     background-position:center;
     margin:-100px 0 0 -100px; /* is width and height divided by two */
