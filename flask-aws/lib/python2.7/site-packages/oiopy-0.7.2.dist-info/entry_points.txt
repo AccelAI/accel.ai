@@ -1,0 +1,43 @@
+[console_scripts]
+openio = oiopy.cli.shell:main
+
+[openio.cli.base]
+directory = oiopy.cli.directory.client
+storage = oiopy.cli.storage.client
+
+[openio.directory]
+reference_create = oiopy.cli.directory.reference:CreateReference
+reference_delete = oiopy.cli.directory.reference:DeleteReference
+reference_force = oiopy.cli.directory.reference:ForceReference
+reference_info = oiopy.cli.directory.reference:AnalyzeReference
+reference_link = oiopy.cli.directory.reference:LinkReference
+reference_list = oiopy.cli.directory.reference:ListReference
+reference_poll = oiopy.cli.directory.reference:PollReference
+reference_set = oiopy.cli.directory.reference:SetReference
+reference_show = oiopy.cli.directory.reference:ShowReference
+reference_unlink = oiopy.cli.directory.reference:UnlinkReference
+reference_unset = oiopy.cli.directory.reference:UnsetReference
+
+[openio.storage]
+account_create = oiopy.cli.storage.account:CreateAccount
+account_delete = oiopy.cli.storage.account:DeleteAccount
+account_set = oiopy.cli.storage.account:SetAccount
+account_show = oiopy.cli.storage.account:ShowAccount
+account_unset = oiopy.cli.storage.account:UnsetAccount
+container_create = oiopy.cli.storage.container:CreateContainer
+container_delete = oiopy.cli.storage.container:DeleteContainer
+container_info = oiopy.cli.storage.container:AnalyzeContainer
+container_list = oiopy.cli.storage.container:ListContainer
+container_save = oiopy.cli.storage.container:SaveContainer
+container_set = oiopy.cli.storage.container:SetContainer
+container_show = oiopy.cli.storage.container:ShowContainer
+container_unset = oiopy.cli.storage.container:UnsetContainer
+object_create = oiopy.cli.storage.obj:CreateObject
+object_delete = oiopy.cli.storage.obj:DeleteObject
+object_info = oiopy.cli.storage.obj:AnalyzeObject
+object_list = oiopy.cli.storage.obj:ListObject
+object_save = oiopy.cli.storage.obj:SaveObject
+object_set = oiopy.cli.storage.obj:SetObject
+object_show = oiopy.cli.storage.obj:ShowObject
+object_unset = oiopy.cli.storage.obj:UnsetObject
+

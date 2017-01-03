@@ -1,0 +1,40 @@
+Metadata-Version: 2.0
+Name: cliff-tablib
+Version: 2.0
+Summary: tablib formatters for cliff
+Home-page: https://github.com/dreamhost/cliff-tablib
+Author: Doug Hellmann
+Author-email: doug.hellmann@gmail.com
+License: UNKNOWN
+Platform: Any
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Provides: clifftablib
+Requires-Dist: cliff
+Requires-Dist: tablib
+
+=======================================================
+ cliff-tablib -- Formatting Extensions for Cliff
+=======================================================
+
+.. image:: https://secure.travis-ci.org/dhellmann/cliff.png?branch=master
+
+cliff-tablib is a set of formatter extensions for producing HTML
+output in programs created with the cliff framework. Installing
+cliff-tablib activates these formatters for any cliff-based programs
+automatically.
+
+Documentation
+=============
+
+Documentation for cliff-tablib is hosted on readthedocs.org at
+http://cliff-tablib.readthedocs.org/
+
+

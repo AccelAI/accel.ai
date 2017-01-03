@@ -1,0 +1,6 @@
+[cliff.formatter.list]
+html = clifftablib.formatters:HtmlFormatter
+
+[cliff.formatter.show]
+html = clifftablib.formatters:HtmlFormatter
+
