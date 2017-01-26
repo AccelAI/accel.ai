@@ -1,4 +1,4 @@
-#Python Flask Application with
+#Python Flask Application
 
 Developed to Integrate with Open-sourced LMS & Medium Blog API
 
@@ -28,7 +28,9 @@ Changes to styling of template pages should be added to "custom.css" or "custom.
 Only if you have the correct permissions in place may you deploy production code of this application to AWS.
 
 *Must be granted access to AWS account
+
 *Must have proper installation of elastic bean stalk
+
 *Must have verified aws-access-id & secret-key
 
 For those with the proper persmissions in place, updates can be made with `eb deploy`.
@@ -38,7 +40,7 @@ For those with the proper persmissions in place, updates can be made with `eb de
 
 ##License
 
-[MIT License](./LICENSE).
+[MIT License](/LICENSE).
 
 
 
