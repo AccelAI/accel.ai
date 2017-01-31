@@ -1,4 +1,4 @@
-#Python Flask Application
+#Python Flask Application for Accel.ai
 
 Developed to Integrate with Open-sourced LMS & Medium Blog API
 
