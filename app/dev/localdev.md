@@ -33,7 +33,7 @@ Only if you have the correct permissions in place may you deploy production code
 
 *Must have verified aws-access-id & secret-key
 
-For those with the proper persmissions in place, updates can be made with `eb deploy`.
+For those with the proper persmissions in place, updates can be made with `eb deploy` from main branch.
 
 
 
