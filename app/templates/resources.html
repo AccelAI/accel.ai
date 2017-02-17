@@ -1,4 +1,195 @@
 {% extends "layout.html" %}
 {% block content %}
-Resources
+ <!--Work-->
+  <div class="section scrollspy" id="work">
+      <div class="container">
+          <h2 class="header text_b">Software | Tutorials | APIs</h2>
+          <div class="row">
+               <div class="col s12 m4 l4">
+                  <div class="card">
+                      <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" src="/static/images/caffe_sm.png">
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">Caffe <i class="mdi-navigation-more-vert right"></i></span>
+                          <p><a href="http://caffe.berkeleyvision.org/" target="_blank">Learn More</a></p>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Caffe <i class="mdi-navigation-close right"></i></span>
+                          <p>Deep learning framework made with expression, speed, and modularity in mind. It is developed by the Berkeley Vision and Learning Center (BVLC) and by community contributors.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m4 l4">
+                  <div class="card">
+                      <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" src="/static/images/cntk_sm.png">
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">CNTK <i class="mdi-navigation-more-vert right"></i></span>
+                          <p><a href="https://www.microsoft.com/en-us/research/product/cognitive-toolkit/" target="_blank">Learn More</a></p>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">CNTK <i class="mdi-navigation-close right"></i></span>
+                          <p>The Microsoft Cognitive Toolkit—previously known as CNTK—empowers you to harness the intelligence within massive datasets through deep learning by providing uncompromised scaling, speed and accuracy with commercial-grade quality and compatibility with the programming languages and algorithms you already use.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m4 l4">
+                  <div class="card">
+                      <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" src="/static/images/dl4j_sm.png">
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">DL4J <i class="mdi-navigation-more-vert right"></i></span>
+                          <p><a href="https://deeplearning4j.org/" target="_blank">Learn More</a></p>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">DL4J <i class="mdi-navigation-close right"></i></span>
+                          <p>Deeplearning4j is the first commercial-grade, open-source, distributed deep-learning library written for Java and Scala. Integrated with Hadoop and Spark, DL4J is designed to be used in business environments on distributed GPUs and CPUs. Skymind is its commercial support arm.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m4 l4">
+                  <div class="card">
+                      <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" src="/static/images/hadoop_sm.png">
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">Hadoop <i class="mdi-navigation-more-vert right"></i></span>
+                          <p><a href="http://hadoop.apache.org/" target="_blank">Learn More</a></p>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Hadoop <i class="mdi-navigation-close right"></i></span>
+                          <p>The Apache Hadoop software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. Rather than rely on hardware to deliver high-availability, the library itself is designed to detect and handle failures at the application layer, so delivering a highly-available service on top of a cluster of computers, each of which may be prone to failures.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m4 l4">
+                  <div class="card">
+                      <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" src="/static/images/keras_sm.jpg">
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">Keras <i class="mdi-navigation-more-vert right"></i></span>
+                          <p><a href="https://keras.io/" target="_blank">Learn More</a></p>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Keras <i class="mdi-navigation-close right"></i></span>
+                          <p>Keras is a high-level neural networks library, written in Python and capable of running on top of either TensorFlow or Theano. It was developed with a focus on enabling fast experimentation. Being able to go from idea to result with the least possible delay is key to doing good research.</p>
+                      </div>
+                  </div>
+              </div>
+               <div class="col s12 m4 l4">
+                  <div class="card">
+                      <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" src="/static/images/mxnet_sm.png">
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">MXNet <i class="mdi-navigation-more-vert right"></i></span>
+                          <p><a href="http://mxnet.io/" target="_blank">Learn More</a></p>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">MXNet <i class="mdi-navigation-close right"></i></span>
+                          <p>MXNet is an open-source deep learning framework that allows you to define, train, and deploy deep neural networks on a wide array of devices, from cloud infrastructure to mobile devices. It is highly scalable, allowing for fast model training, and supports a flexible programming model and multiple languages. MXNet allows you to mix symbolic and imperative programming flavors to maximize both efficiency and productivity. MXNet is built on a dynamic dependency scheduler that automatically parallelizes both symbolic and imperative operations on the fly. A graph optimization layer on top of that makes symbolic execution fast and memory efficient. The MXNet library is portable and lightweight, and it scales to multiple GPUs and multiple machines.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m4 l4">
+                  <div class="card">
+                      <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" src="/static/images/neon_sm.png">
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">Neon <i class="mdi-navigation-more-vert right"></i></span>
+                          <p><a href="https://neon.nervanasys.com/index.html/" target="_blank">Learn More</a></p>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Neon <i class="mdi-navigation-close right"></i></span>
+                          <p>neon is Nervana's Python based Deep Learning framework and achieves the fastest performance on modern deep neural networks such as AlexNet, VGG and GoogLeNet. Designed for ease-of-use and extensibility.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m4 l4">
+                  <div class="card">
+                      <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" src="/static/images/scikit_sm.jpg">
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">Scikit Learn <i class="mdi-navigation-more-vert right"></i></span>
+                          <p><a href="http://scikit-learn.org/stable/" target="_blank">Learn More</a></p>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Scikit Learn <i class="mdi-navigation-close right"></i></span>
+                          <p>An open source Python library that implements a range of machine learning, preprocessing, cross-validation and visualization algorithms.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m4 l4">
+                  <div class="card">
+                      <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" src="/static/images/spark_sm.png">
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">Spark <i class="mdi-navigation-more-vert right"></i></span>
+                          <p><a href="http://spark.apache.org/" target="_blank">Learn More</a></p>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Spark <i class="mdi-navigation-close right"></i></span>
+                          <p>Apache Spark is a fast and general engine for big data processing, with built-in modules for streaming, SQL, machine learning and graph processing.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m4 l4">
+                  <div class="card">
+                      <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" src="/static/images/tensorflow_sm.jpg">
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">TensorFlow <i class="mdi-navigation-more-vert right"></i></span>
+                          <p><a href="https://www.tensorflow.org/" target="_blank">Learn More</a></p>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">TensorFlow <i class="mdi-navigation-close right"></i></span>
+                          <p>An open source library for numeric computation using data flow graphs, optimized for parallel processing using GPUs to handle massive scale deep neural networks.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m4 l4">
+                  <div class="card">
+                      <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" src="/static/images/theano_sm.png">
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">Theano <i class="mdi-navigation-more-vert right"></i></span>
+                          <p><a href="http://deeplearning.net/software/theano/" target="_blank">Learn More</a></p>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Theano <i class="mdi-navigation-close right"></i></span>
+                          <p>Python library that lets you to define, optimize, and evaluate mathematical expressions, especially ones with multi-dimensional arrays. Theano was written at the LISA lab to support rapid development of efficient machine learning algorithms.</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col s12 m4 l4">
+                  <div class="card">
+                      <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" src="/static/images/torch_sm.png">
+                      </div>
+                      <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">Torch <i class="mdi-navigation-more-vert right"></i></span>
+                          <p><a href="http://torch.ch/" target="_blank">Learn More</a></p>
+                      </div>
+                      <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Torch <i class="mdi-navigation-close right"></i></span>
+                          <p>Torch is a scientific computing framework with wide support for machine learning algorithms that puts GPUs first. It is easy to use and efficient, thanks to an easy and fast scripting language, LuaJIT, and an underlying C/CUDA implementation.</p>
+                      </div>
+                  </div>
+              </div>
+
+
+
+          </div>
+      </div>
+  </div>
 {% endblock %}
