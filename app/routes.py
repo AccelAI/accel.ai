@@ -8,9 +8,7 @@ def index():
 
 
 
-@app.route('/workshops')
-def workshops():
-    return render_template('workshops.html', title='Workshops')
+
 
 @app.route('/blog')
 def blog():
@@ -23,6 +21,15 @@ def culture():
 @app.route('/curriculum')
 def curriculum():
     return "curriculum"
+
+@app.route('/resources')
+def resources():
+  return render_template('resources.html', title='Resources')
+
+
+@app.route('/workshops')
+def workshops():
+    return render_template('workshops.html', title='Workshops')
 
 
 
